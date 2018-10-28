@@ -1,16 +1,18 @@
 package com.akhil.singtel.questions;
 
-public class Fish implements Movement {
+public class Fish extends Animal {
 
 	private final String color, size;
 
 	public Fish() {
+		super("");
 		this.color = "White";
 		this.size = "Medium";
+
 	}
 
 	protected Fish(String color, String size) {
-		super();
+		super("");
 		this.color = color;
 		this.size = size;
 	}
@@ -30,6 +32,16 @@ public class Fish implements Movement {
 	public void fly() {
 		throw new RuntimeException("I cannot fly");
 
+	}
+
+	@Override
+	public void sing() {
+		throw new RuntimeException("I cannot Sing");
+	}
+
+	@Override
+	public void say() {
+		throw new RuntimeException("I cannot Say");
 	}
 
 	public String getColor() {

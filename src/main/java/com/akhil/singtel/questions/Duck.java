@@ -7,8 +7,9 @@ public class Duck extends Bird {
 
 	}
 
+	@Override
 	public void swim() {
-		System.out.println("I can swim");
+		System.out.println("I am swimming");
 	}
 
 }
