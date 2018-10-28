@@ -2,17 +2,16 @@ package com.akhil.singtel.questions;
 
 class Bird extends Animal {
 
-	protected final String voice;
-
 	public Bird() {
-		this.voice = "";
+		super("Queek Qeek");
 	}
 
 	protected Bird(String voice) {
-		this.voice = voice;
+		super(voice);
 	}
 
-	void fly() {
+	@Override
+	public void fly() {
 		System.out.println("I am flying");
 	}
 
@@ -21,8 +20,4 @@ class Bird extends Animal {
 		System.out.println("Queek Queek Queek");
 	}
 
-	@Override
-	public void say() {
-		System.out.println(this.voice);
-	}
 }
