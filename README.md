@@ -38,6 +38,9 @@ There can be other way but because I am running out of time, this is the best i 
 
 - Q2) 
 ![alt text](/images/img1.jpg)
+![alt text](/images/img2.jpg)
+
+*This can be improved. Hopefully if we meet for a face to face interview, I can give a better solution*
 
 
 
